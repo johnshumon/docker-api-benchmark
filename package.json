@@ -1,7 +1,7 @@
 {
   "name": "api-benchmarking",
   "version": "0.0.1",
-  "description": "Simple tool to measure load of servers and api services"
+  "description": "Simple tool to measure load of servers and api services",
   "private": false,
   "dependencies": {
     "api-benchmark": "~0.4.2",
