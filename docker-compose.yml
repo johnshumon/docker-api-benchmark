@@ -1,0 +1,14 @@
+##################################################################
+# Docker Compose file for api-benchmark                          #
+##################################################################
+version: '2'
+
+services:
+  # api-benchmark
+  benchmarker:
+    container_name: benchmarker
+    image: api-benchmark
+    volumes:
+      - ./test-script:/api-benchmark/test-script
+    ports:
+      - "8096:8096"
