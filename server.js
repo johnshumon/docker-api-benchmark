@@ -7,7 +7,7 @@ var serveStatic = require('serve-static');
 var appRootDir = require('app-root-dir').get();
 var log = require(appRootDir + '/log/bunyan.js');
 
-var PORT = process.env.port || 8097;
+var PORT = process.env.port || 8096;
 
 // Serve directory indexes for reports folder (with icons)
 var index = serveIndex('reports/', {'icons': true});
