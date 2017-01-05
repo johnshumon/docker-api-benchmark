@@ -25,3 +25,6 @@ You can start load-testing your APIs either from inside or outside of the contai
 Number of endpoints to be added and configured with heavy traffic are listed in `start-test.js` file.
 
 Reports of API load test are browsable through `http://<container_host_ip>:8096`
+
+##LICENSE
+[MIT](./LICENSE/)
