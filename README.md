@@ -26,5 +26,5 @@ Number of endpoints to be added and configured with heavy traffic are listed in 
 
 Reports of API load test are browsable through `http://<container_host_ip>:8096`
 
-##LICENSE
+## LICENSE
 [MIT](./LICENSE/)
